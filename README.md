@@ -1,4 +1,4 @@
-# 🗂️ LlamaIndex Framework 🦙
+# LlamaIndex Framework 🦙
 
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)
 [![Build](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml/badge.svg)](https://github.com/run-llama/llama_index/actions/workflows/build_package.yml)
@@ -16,7 +16,7 @@
 
 LlamaIndex Framework (by [LlamaIndex](https://llamaindex.ai?utm_medium=li_github&utm_source=github&utm_campaign=2026--), the company behind LlamaParse) is an open-source framework to build agentic applications. You can use LlamaParse with this framework or on its own; see [LlamaParse](#llamacloud-document-agent-platform) below for signup and product links.
 
-> ### 📚 **Documentation:**
+> ### **Documentation:**
 >
 > - [LlamaParse](https://developers.llamaindex.ai/llamaparse/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
 > - [LlamaIndex Framework](https://developers.llamaindex.ai/python/framework/?utm_medium=li_github&utm_source=github&utm_campaign=2026--)
