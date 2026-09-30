@@ -120,6 +120,19 @@ pip install llama-index-embeddings-huggingface
 
 Examples are in the `docs/examples` folder. Indices are in the `indices` folder (see list of indices below).
 
+To build a simple vector store index using OpenAI:
+
+```python
+import os
+
+os.environ["OPENAI_API_KEY"] = "YOUR_OPENAI_API_KEY"
+
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
+
+documents = SimpleDirectoryReader("YOUR_DATA_DIRECTORY").load_data()
+index = VectorStoreIndex.from_documents(documents)
+```
+
 
 To build a simple vector store index using non-OpenAI LLMs, e.g. LLMs hosted through Ollama:
 
